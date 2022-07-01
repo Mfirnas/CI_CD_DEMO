@@ -20,4 +20,11 @@ public class Controller {
 		
 		return movies;
 	}
+
+	@GetMapping("/single")
+	public String getOneMovie() {
+
+
+		return "ram";
+	}
 }
